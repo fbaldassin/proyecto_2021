@@ -8,4 +8,4 @@ contador = 0
 for linea in man_a:
     if linea.startswith('Subject:'):
         contador = contador + 1
-print('Hay', contador, 'lÃ­neas de asunto (subject) en', narchivo)
+print('Hay', contador, 'lineas de asunto (subject) en', narchivo)
